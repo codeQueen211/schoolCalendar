@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(to right ,rgb(220, 213, 214),rgb(32, 30, 31) );
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(237, 163, 175);
+    font-size: x-large;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    color: pink;
+    font-size: small;
+}
+p{
+    text-align: center;
+    color: pink;
+}
+button{
+    /* margin-top: 150px;
+    margin-left: 500px; */
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    color: white;
+    border-radius: 10px;
+    border: none;
+   /* display: block; */
+   /* margin: auto; */
+   margin-right: 30px;
+}
+button:hover{
+    background-color: white;
+    color: pink;
+    cursor: pointer;
+  
+}
+.container{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.dropdown-content-lectures ,.dropdown-content-projects ,.dropdown-content-midtearms, .dropdown-content-exams, .dropdown-content-raedings ,.dropdown-content-assignments{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+
+.dropdown-wrap-lectures:hover .dropdown-content-lectures{
+    display: block;
+}
+.dropdown-wrap-lectures:hover .dropdown-content-lectures label{
+    display: block;
+    margin-bottom: 8px;
+}
+.dropdown-wrap-projects:hover .dropdown-content-projects{
+    display: block;
+}
+.dropdown-wrap-projects:hover .dropdown-content-projects label{
+    display: block;
+    margin-bottom: 8px;
+}
+.dropdown-wrap-midtearms:hover .dropdown-content-midtearms{
+    display: block;
+}
+.dropdown-wrap-midtearms:hover .dropdown-content-midtearms label{
+    display: block;
+    margin-bottom: 8px;
+}
+.dropdown-wrap-exams:hover .dropdown-content-exams{
+    display: block;
+}
+.dropdown-wrap-exams:hover .dropdown-content-exams label{
+    display: block;
+    margin-bottom: 8px;
+}
+.dropdown-wrap-assignments:hover .dropdown-content-assignments{
+    display: block;
+}
+.dropdown-wrap-assignments:hover .dropdown-content-assignments label{
+    display: block;
+    margin-bottom: 8px
+}
+.dropdown-wrap-readings:hover .dropdown-content-raedings {
+    display: block;
+}
+.dropdown-wrap-readings:hover .dropdown-content-raedings label{
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+label{
+    margin-top: 10px;
+}

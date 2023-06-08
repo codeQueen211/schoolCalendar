@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <script src="dateProject.js" defer></script>
+    <link rel="stylesheet" href="dateProject.css">
+</head>
+<body>
+    <h1>MY PERSONAL CALENDAR</h1>
+    <p>This is a calendar of my school work</p>
+    <h2></h2>
+    <div class="container"> 
+ <!-- here is the lectures dropdown  -->
+    <div class="dropdown-wrap-lectures">  
+    <button class="dropdown-lectures">LECTURES</button>
+    <div class="dropdown-content-lectures">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label>
+    </div>
+    </div> 
+<!-- here is the projects dropdown  -->
+    <div class="dropdown-wrap-projects">
+    <button>PROJECTS</button>
+    <div class="dropdown-content-projects">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label>
+        </div>
+    </div>
+<!-- here is the assignments dropdown  -->
+    <div class="dropdown-wrap-assignments">
+    <button>ASSIGNMENTS</button>
+    <div class="dropdown-content-assignments">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label> 
+    </div>
+    </div>
+<!-- here is the midtearms dropdown  -->
+    <div class="dropdown-wrap-midtearms">
+    <button>MIDTEARMS</button>
+    <div class="dropdown-content-midtearms">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label>
+        </div>
+    </div>
+<!-- here is the exams dropdown  -->
+    <div class="dropdown-wrap-exams">
+    <button>FINAL-EXAMS</button>
+    <div class="dropdown-content-exams">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label>
+        </div>
+    </div>
+<!-- here is the raedings dropdown  -->
+    <div class="dropdown-wrap-readings">
+    <button>READINGS </button>
+    <div class="dropdown-content-raedings">
+        <label><input type="checkbox" value="Option 1"> Option 1</label>
+        <label><input type="checkbox" value="Option 2"> Option 2</label>
+        <label><input type="checkbox" value="Option 3"> Option 3</label>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+<!-- <script>
+    let date= new Date();
+    let Year= date.getFullYear();
+    let Hour=date.getHours();
+    let Min=date.getMinutes();
+    let Sec=date.getSeconds();
+    let WeekDays=["SUN", "MON", "TUE","WED","THU","FRI","SAT"];
+    let WeekDay=WeekDays[date.getDay()];
+    let Months=["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
+    let Month=Months[date.getMonth()];
+    
+    document.querySelector('h2').innerHTML=`${Month} ${date.getDate()} ${Year} ${WeekDay} ${Hour}:${Min}:${Sec}`;
+    
+</script> -->
+
+</html>
