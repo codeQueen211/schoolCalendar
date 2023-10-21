@@ -1,1 +1,1 @@
-# schoolchalendar
+# schoolcalendar
