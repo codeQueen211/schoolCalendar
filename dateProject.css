@@ -41,9 +41,6 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* margin-top: 40px;
-    margin-left: 90px; */
 }
 .dropdown-content-lectures ,.dropdown-content-projects ,.dropdown-content-midtearms, .dropdown-content-exams, .dropdown-content-raedings ,.dropdown-content-assignments{
   display: none;
